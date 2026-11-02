@@ -1,0 +1,21 @@
+# Secrets and local credentials
+.env
+.env.*
+!.env.example
+
+# Telegram authentication sessions
+*.session
+*.session-journal
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Telegram generated reports and discovery data
+telegram/discovered_channels.json
+telegram/telegram_findings*.csv
+telegram/telegram_findings*.json
+telegram/telegram_client_mentions.csv
+telegram/telegram_potential_exposures.csv
