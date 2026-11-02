@@ -19,3 +19,5 @@ telegram/telegram_findings*.csv
 telegram/telegram_findings*.json
 telegram/telegram_client_mentions.csv
 telegram/telegram_potential_exposures.csv
+
+backups/
